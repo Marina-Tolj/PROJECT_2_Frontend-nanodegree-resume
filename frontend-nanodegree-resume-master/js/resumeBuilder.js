@@ -131,7 +131,7 @@ work.display = function(){
 		var formattedDescription = HTMLworkDescription.replace("%data%", work.jobs[job].description);
 		$(".work-entry:last").append(formattedDescription);
 		}
-}
+};
 
 work.display();
 
@@ -144,7 +144,7 @@ skillDia.display = function(){
 
 		var formattedskillsMsg = HTMLskillsDescription.replace("%data%", skillDia.skillsMsg);
 		$(".skills-entry").prepend(formattedskillsMsg);
-}
+};
 
 skillDia.display();
 
@@ -154,13 +154,13 @@ var projects = {
 			"title" : "Portfolio Site",
 			"dates" : "March 2015 - April 2015",
 			"description": "Built my own portfolio site to showcase my work done during Udacity Front-End Web Development Nanodegree.",
-			"images": "images/project1.jpg"
+			"images": "images/project1.JPG"
 		},
 		{
 			"title" : "Interactive Resume",
-			"dates": "April 2015",
+			"dates": "April 2015 - May 2015",
 			"description": "Resume containing all the relevant info about me.",
-			"images": "images/project2.jpg"
+			"images": "images/project2.JPG"
 		}
 	]
 };
